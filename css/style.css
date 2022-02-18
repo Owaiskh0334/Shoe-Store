@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@100&family=Roboto&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(72, 72, 145);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.brand {
+    display: inline-block;
+}
+.logo {
+    width: 70px;
+    margin-left: 30px;
+}
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(72, 72, 145);
+    border-bottom: 1px solid white;
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 2);
+    position: fixed;
+    top: 0; 
+}
+nav ul {
+    float: right;
+}
+nav ul li {
+    float: left;
+    list-style: none;
+    padding: 10px;
+    font-size: 15px;
+    margin: 10px;    
+    font-weight: 900;
+}
+nav ul li:hover {
+    background-color: rgb(46, 46, 138);
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+.left {
+    width: 700px;
+    height: 670px;
+    
+    text-align: center;
+      
+}
+.left h1 {
+    margin-top: 150px;
+    font-size: 50px;
+}
+.btn {
+    width: 170px;
+    height: 40px;
+    background-color: rgb(56, 56, 240);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.right {
+    width: 400px;
+    height: 500px;
+    
+    position: absolute;
+    top: 100px;
+    left: 800px;
+}
+.shoe {
+    width: 400px;
+    transform: rotate(-40deg);
+    margin-top: 100px;
+}
+.heading {
+    margin-top: 150px;
+    text-align: center;
+    font-size: 50px;
+}
+.box1 {
+    width: 300px;
+    height: 420px;
+    background-color: white;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    color: black;
+    text-align: center;
+    box-shadow: 0 0px 4px 0 rgb(0, 0, 0, 1);
+}
+.box1 img {
+    width: 300px;
+    border-radius: 10px;
+    
+}
+.box1 a {
+    text-decoration: none;
+    color: black;
+}
+.box1 a:hover {
+    color: royalblue;
+    transition: 1s;
+}
+.btn1 {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(44, 44, 121);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.shoe1 {
+    width: 500px;
+    
+}
+.detail {
+    margin: 80px;
+    font-weight: 50;
+}
+
+
+
+
+
+footer {
+    width: 100%;
+    height: 70px;
+    border-top: 1px solid white;
+    text-align: right;
+    background-color: rgb(72, 72, 145);
+    color: white;
+}
+footer p {
+    padding: 10px;
+}
